@@ -146,3 +146,10 @@ When contributing to this repository, please first discuss the change you wish t
 3. Commit your Changes (**yarn commit**)
 4. Push to the Branch (**git push origin feature/AmazingFeature**)
 5. Open a Pull Request and leave some comments!
+
+---
+### **Troubleshooting**
+
+`Error: ChromeDriver did not start within 5000ms` : See this [thread](https://stackoverflow.com/questions/41553381/error-chromedriver-did-not-start-within-5000ms) `export {no_proxy,NO_PROXY}="127.0.0.1"`
+
+---
