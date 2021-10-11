@@ -1,21 +1,21 @@
+import { ElectronApplication } from "playwright";
 import { setUp } from "../../../testHelper";
 
-const app = setUp();
+let app: ElectronApplication;
 jest.setTimeout(30000); // increase to 50000 on low spec laptop
 describe("index page tests", () => {
   beforeAll(async () => {
-    await app.start().then(() => {
-      return app.client.waitUntilWindowLoaded();
-    });
+    app = await setUp();
   });
 
   afterAll(async () => {
-    if (app && app.isRunning()) {
-      await app.stop();
-    }
+    await app.close();
   });
 
   it("shows an initial window", async () => {
-    expect(await app.client.getWindowCount()).toBe(1);
+    const window = await app.firstWindow();
+
+    const element = await window.$("#root", { strict: true });
+    expect(element).toBeTruthy();
   });
 });

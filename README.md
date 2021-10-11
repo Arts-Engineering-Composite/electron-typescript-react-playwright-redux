@@ -1,6 +1,6 @@
-# electron-typescript-react-spectron-redux
+# electron-typescript-react-playwright-redux
 
-> A secure, modular, and easy to use [Electron Forge](https://www.electronforge.io/) boilerplate featuring [Typescript](https://www.typescriptlang.org/), [React](https://reactjs.org/), [Webpack](https://webpack.js.org/), [Spectron](https://www.electronjs.org/spectron), [Redux](https://redux.js.org/) and [persistance](https://github.com/saucesteals/electron-persist-secure) (with [redux-persist](https://github.com/rt2zz/redux-persist) support) plus prettier :))))))))))))))))
+> A secure, modular, and easy to use [Electron Forge](https://www.electronforge.io/) boilerplate featuring [Typescript](https://www.typescriptlang.org/), [React](https://reactjs.org/), [Webpack](https://webpack.js.org/), [Playwright](https://playwright.dev/), [Redux](https://redux.js.org/) and [persistance](https://github.com/saucesteals/electron-persist-secure) (with [redux-persist](https://github.com/rt2zz/redux-persist) support) plus prettier :))))))))))))))))
 
 
 ---
@@ -9,7 +9,7 @@
 
 Clone the repository locally with **none** of its git history
 ```sh
-$ git clone --depth 1 --single-branch https://github.com/Arts-Engineering-Composite/electron-typescript-react-spectron-redux your-project-name
+$ git clone --depth 1 --single-branch https://github.com/Arts-Engineering-Composite/electron-typescript-react-playwright-redux your-project-name
 
 $ cd your-project-name
 
@@ -17,7 +17,7 @@ $ yarn
 ```
 ### **OR**
 
-Generate a GitHub repository with the [Use this template](https://github.com/Arts-Engineering-Composite/electron-typescript-react-spectron-redux/generate) button above
+Generate a GitHub repository with the [Use this template](https://github.com/Arts-Engineering-Composite/electron-typescript-react-playwright-redux/generate) button above
 
 ```sh
 $ git clone https://github.com/your-username/your-project-name
@@ -131,7 +131,7 @@ yarn create-icons
 
   preload.ts # main "entry to frontend" electron preload entry
 
-  testHelper.ts # helper functions for running spectron tests
+  testHelper.ts # helper functions for running playwright tests
 
 
 ```

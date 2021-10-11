@@ -14,7 +14,7 @@ module.exports = {
       config: {
         repository: {
           owner: "Arts-Engineering-Composite",
-          name: "electron-typescript-react-spectron-redux",
+          name: "electron-typescript-react-playwright-redux",
           authToken: process.env.GITHUB_TOKEN,
         },
         draft: true,
@@ -30,7 +30,7 @@ module.exports = {
         // https://js.electronforge.io/maker/squirrel/interfaces/makersquirrelconfig
         setupExe: "Windows Setup.exe",
         iconUrl:
-          "https://raw.githubusercontent.com/Arts-Engineering-Composite/electron-typescript-react-spectron-redux/main/assets/package/icons/win/icon.ico",
+          "https://raw.githubusercontent.com/Arts-Engineering-Composite/electron-typescript-react-playwright-redux/main/assets/package/icons/win/icon.ico",
         setupIcon: path.join(packageAssetsPath, "icons", "win", "icon.ico"),
         authors: "AEComposite",
         loadingGif: path.join(packageAssetsPath, "loading.gif"),

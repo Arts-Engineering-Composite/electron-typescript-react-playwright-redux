@@ -37,7 +37,7 @@ const HomePage = () => {
       />
 
       <div className="font-bold mb-4">
-        React + Spectron + Electron + Redux = 😤
+        React + Playwright + Electron + Redux = 😤
       </div>
 
       <div style={{ display: "flex", flexDirection: "row" }}>
